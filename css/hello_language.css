@@ -1,0 +1,465 @@
+/* Different languages  */
+
+html,body {
+	margin: 0;
+    padding: 0;
+
+}
+
+a {
+     text-decoration: none;
+     color: white;
+    }
+
+
+.blue_box  {
+	Width: 100vw;
+    height: 100vw;
+    background: #0072CE; 
+    Position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    z-index: 12; 
+
+}
+
+.green_box  {
+	Width: 100vw;
+    height: 100vw;
+    background: #43B02A; 
+    Position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    z-index: 16; 
+    visibility: hidden;
+    animation-iteration-count: 1;
+    animation: box 1s forwards;
+    animation-delay: 14s;
+}
+
+.blue_slat  {
+	width: 0vw;
+    height: 60vw;
+    background: #0072CE;  
+    Position: absolute;
+    left: 0px;
+    top: 5%;
+    bottom: 5%;
+    margin: auto;
+    z-index: 22; 
+    visibility: hidden;
+    animation-iteration-count: 1;
+    animation: middleslat 1s forwards;
+    animation-delay: 27s;
+}
+
+.blue_slat_top  {
+	width: 0vw;
+    height: 40vw;
+    background: #0072CE;  
+    Position: absolute;
+    right: 100%;
+    top: -20%;
+    bottom: 50%;
+    margin: auto;
+    z-index: 22; 
+    visibility: hidden;
+    animation-iteration-count: 1;
+    animation: slat 1s forwards;
+    animation-delay: 23s;
+}
+
+.blue_slat_bottom  {
+	width: 0vw;
+    height: 40vw;
+    background: #0072CE;  
+    Position: absolute;
+    right: 100%;
+    top: 50%;
+    bottom: -20%;
+    margin: auto;
+    z-index: 22; 
+    visibility: hidden;
+    animation-iteration-count: 1;
+    animation: slat 1s forwards;
+    animation-delay: 25s;
+}
+
+.skip  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: lightgrey;
+    position: absolute;
+	height: 80vmin;
+    top: 3%;
+    left: 85%;
+    text-align: right;
+    z-index: 40; 
+
+}
+
+
+.hello_intro  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    z-index: 20; 
+    visibility: hidden;
+    width: 75vmin;
+	height: 80vmin;
+    top: 30vmin;
+    left: 50vmin;
+
+}
+
+.hello_stats  {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    z-index: 25; 
+    visibility: hidden;
+    width: 90vmin;
+	height: 80vmin;
+    top: 20vmin;
+    left: 50vmin;
+
+}
+
+
+.hello_global {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 75vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 20vmin;
+    left: 50vmin;
+
+}
+
+.hello_portuguese {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+
+}
+
+.hello_danish {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+
+}
+
+.hello_czech {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+}
+
+
+.hello_japanese {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 42vmin;
+    left: 25vmin;
+    
+    }
+
+.hello_persian {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+}
+
+.hello_devanagari {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+}
+
+.hello_icelandic {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+}
+.hello_russian {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+}
+
+.hello_korean {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 130px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 15; 
+    visibility: hidden;
+    width: 120vmin;
+	height: 80vmin;
+    position: absolute;
+    top: 40vmin;
+    left: 25vmin;
+}
+
+.text_intro{
+    animation: type_appear 4s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards; 
+
+}
+
+.text_stats{
+    animation: type_appear 8s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards; 
+
+}
+
+.cyrillic{
+    animation: type_appear 6s;
+    animation-delay: 23s;
+    animation-fill-mode: forwards; 
+
+}
+
+.chinese{
+    animation: type_appear 1s;
+    animation-delay: 28s;
+    animation-fill-mode: forwards; 
+
+}
+
+.arabic{
+    animation: type_appear 4s;
+    animation-delay: 25s;
+    animation-fill-mode: forwards; 
+
+}
+
+.text_portuguese {
+    animation: type_fade 4s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards; 
+
+}
+
+
+.text_danish {
+    animation: type_fade 4s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards; 
+
+}
+
+
+.text_czech {
+    animation: type_fade 4s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards; 
+
+}
+
+.text_japanese {
+    animation: type_fade 4s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards; 
+
+}
+
+.text_persian {
+    animation: type_fade 4s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards; 
+
+}
+
+.text_devanagari {
+    animation: type_fade 4s;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards; 
+
+}
+
+.text_icelandic {
+    animation: type_fade 4s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards; 
+
+}
+
+.text_russian {
+    animation: type_fade 4s;
+    animation-delay: 10.5s; /* 20s */
+    animation-fill-mode: forwards; 
+
+}
+
+.text_korean {
+    animation: type_fade 4s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards; 
+
+}
+
+@keyframes type_appear {
+    0% {visibility: hidden;}
+    50% {visibility: visible;}
+    100% {visibility: hidden;}
+}
+
+@keyframes type_fade {
+    0% {visibility: hidden;}
+    25% {visibility: visible; opacity: 1;}
+    50% {visibility: visible; opacity: .5;}
+    75% {visibility: visible; opacity: .25;}
+    100% {visibility: visible; opacity: 0;}
+}
+
+@keyframes box {
+	
+	0%	{ visibility: hidden; width: 0vmin; height: 100vmin; opacity: 1; }
+	100% { visibility: visible; width: 200vmin; height: 100vmin; opacity: 1;  }
+
+}
+
+@keyframes slat {
+	
+	0%	{ right:0px; width: 0vmin; height: 40vmin; opacity: 1; visibility: hidden; }
+	100% { right:0px; width: 200vmin; height: 40vmin; visibility: visible; }
+
+}
+
+@keyframes middleslat {
+	
+    0% { left:0px; width: 0vmin; height: 40vmin; visibility: hidden;} 
+    100% { left:0px; width: 200vmin; height: 40vmin; visibility: visible;}
+}
+
+
+
+
+/*
+    0% {visibility: hidden; width: 0vmin; height: 33vmin; opacity: 1; right: 0;}
+    100% {visibility: visible; width: 200vmin; height: 33vmin; opacity: 1; right: 100%;}
+
+
+{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+positioning if first type to appear
+.hello_french  {
+    width: 50vmin;
+	height: 50vmin;
+    position: absolute;
+    top: 18vmin;
+    left: 54vmin;
+    z-index: 14; 
+ 
+}
+
+.circle_responsive {
+    width: 159vmin;
+    height: 159vmin;
+    border-radius: 100%;
+    background: blue;
+    Position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    z-index: 8; 
+    animation-iteration-count: 1;
+
+*/
+
+}
+
